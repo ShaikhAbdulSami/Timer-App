@@ -1,0 +1,25 @@
+{
+  "short_name": "StopWatch App",
+  "name": "Shaikh StopWatch App",
+  "icons": [
+    {
+      "src": "Timer.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "Timer192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "Timer512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

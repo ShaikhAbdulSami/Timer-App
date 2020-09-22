@@ -1,0 +1,136 @@
+body {
+	background-color: #282C34;
+	background-size : cover;
+	margin :0 ;
+	padding : 0 2px;
+  
+	justify-content: center;
+  }
+  
+  * {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+  }
+  
+  .main-section {
+	background: transparent;
+	max-width: 600px;
+	width: 90%;
+	height: 500px;
+	margin: 30px auto;
+  }
+  .LogoText{
+	font-size: 50px;
+	font-weight: 800;
+	color: #1394f6;
+  }
+  
+  @media screen and (max-width : 600px) {
+	.LogoText{
+	  font-size: 40px;
+	  color: #1394f6;
+	}
+  }
+  
+  @media screen and (min-width : 600px) {
+	.headerSection{
+	  margin: 0px 100px;
+	  
+	}
+  }
+  
+  .timerDots{
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+  }
+  
+  .timerlogo {
+	width:100px !important
+  }
+  
+  .clock-holder {
+	width: 100%;
+	background: transparent;
+	position: relative;
+  }
+  
+  
+  .stopwatch {
+	padding: 60px 0px;
+	text-align: center;
+  }
+  .stopwatch span{
+	/* background:#00ABA9;  */ 
+	background:#1394f6;
+	color: #fff;
+	display: inline-block;
+	font-family: monospace;
+	font-size: 22px;
+	padding: 20px;
+	border-radius: 5px;
+	width: 70px;
+	margin: 0px 10px;
+	margin-bottom: 20px !important;
+  }
+  
+  .stopwatch .stopwatch-btn {
+	background: #fff;
+	margin-top: 30px;
+	margin-left: 5px;
+	border: none;
+	padding: 12px 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+	width: 150px;
+	transition: background 1s;
+	cursor: pointer;
+  }
+  .stopwatch .stopwatch-btn-red{
+	border: 2px solid #C85454;
+	color: #C85454;
+  }
+  .stopwatch .stopwatch-btn-grey{
+	border: 2px solid #4d4d4d;
+	color: #4d4d4d;
+  }
+  
+  .stopwatch .stopwatch-btn-green{
+	border: 2px solid #00ABA9;
+	color: #00ABA9;
+  }
+  
+  .stopwatch .stopwatch-btn-red:hover {
+	background: #C85454;
+	border: 2px solid #b89f9f;
+	color: #fff;
+  }
+  .stopwatch .stopwatch-btn-grey:hover {
+	background: #4d4d4d;
+	border: 2px solid #4d4d4d;
+	color: #fff;
+  }
+  .stopwatch .stopwatch-btn-green:hover {
+	background: #19b80b;
+	border: 2px solid #19b80b;
+	color: #fff;
+  }
+  
+  .stopwatch-btn-green:focus{
+	background: #19b80b !important;
+	border: 2px solid #19b80b;
+	color: #fff;
+  
+  }
+  .stopwatch-btn-red:focus{
+	background: #C85454;
+	border: 2px solid #b89f9f;
+	color: #fff;
+  }
+  
+  .stopwatch-btn-grey:focus{
+	background: #4d4d4d;
+	border: 2px solid #4d4d4d;
+	color: #fff;
+  }
